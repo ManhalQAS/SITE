@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#ajouter-produit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ajouter-produit:hover {
+    background-color: #555;
+}
+
+/* Styles pour les boutons de suppression et d'ajout */
+.produit {
+    position: relative;
+}
+
+.produit .supprimer-produit,
+.produit .ajouter-quantite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produit .ajouter-quantite {
+    background-color: #4caf50;
+}
+
+.produit .supprimer-produit:hover,
+.produit .ajouter-quantite:hover {
+    background-color: #d32f2f;
+}
